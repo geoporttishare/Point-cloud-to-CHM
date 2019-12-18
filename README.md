@@ -76,16 +76,16 @@ Example: Running the script in RStudio, where LASPOLKU = /proj/ogiir-csc/mml/las
 
 ## Use of parameters
 
-HOME: home environment
-WRK: working environment
-resoluutio = output raster resolution
-out_vrt_file = name of the virtual raster
-teema_haku = name of the tiff rasters in the WRK-directory
-teema = name of the 'theme'
+- `HOME`: home environment
+- `WRK`: working environment
+- `resoluutio` = output raster resolution
+- `out_vrt_file` = name of the virtual raster
+- `teema_haku` = name of the tiff rasters in the WRK-directory
+- `teema` = name of the 'theme'
 
 ## Output file and temporary files
 
-The final output raster (the virtual raster and the tiff raster) is stored to the directory which the variable HOME refers. The name of the final raster is specified in the variable output_vrt_tiff (paste from the varialbe HOME, the variable out_vrt_file and the variable teema_haku, which consists of ("_",teema,"_",resolution,"_m.tif"))
+The final output raster (the virtual raster and the tiff raster) is stored to the directory which the variable HOME refers. The name of the final raster is specified in the variable `output_vrt_tiff` (paste from the variable `HOME`, the variable `out_vrt_file` and the variable `teema_haku`, which consists of ("_",teema,"_",resolution,"_m.tif"))
 Add all the temporary rasters are stored to the directory which the variable WRK refers. In the CSC environment the data in the WRK directory will be deleted after 90 days.
 
 ## Usage and Citing
