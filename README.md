@@ -5,7 +5,7 @@
 This repository contains R-script that read LAZ point clouds and generate a digital height model (CHM). Script use lidR library - grid_canopy algorithm, see: https://rdrr.io/cran/lidR/man/grid_canopy.html
 
 This script shows the technical way how calculate CHM in CSC environment using laz-files stored in directory `/proj/ogiir-csc/mml/laserkeilaus/`. Is doesn't give the most perfect results, used parameters should be changed. 
-This script doesn't use the LAScatalog processing engine. There is the other R-script (name: csc_las2veg_raster_all_catalog_filal.R) which use the LAScatalog processing engine, see https://rdrr.io/cran/lidR/man/catalog_apply.html
+This script doesn't use the LAScatalog processing engine. There is the other R-script in repository https://github.com/geoporttishare/vegetation-height which use the LAScatalog processing engine, see https://rdrr.io/cran/lidR/man/catalog_apply.html
 
 ## Getting Started
 
