@@ -9,7 +9,7 @@ This script doesn't use the LAScatalog processing engine. There is the other R-s
 
 ## Getting Started
 
-This script is designed to work in CSC environment (https://www.csc.fi/get-started), but works also in your own desktop -  install all the required libraries (see Dependencies and Installing) and change parameter LASPOLKU (=path, where laz files are stored), see ### Running / Deployment.
+This script is designed to work in CSC environment (https://www.csc.fi/get-started), but works also in your own desktop -  install all the required libraries (see Dependencies and Installing) and change parameter `LASPOLKU` (=path, where laz files are stored), see Running / Deployment.
 Use RSrudio to run and test the script first time. RSrudio is already installed in the CSC Taito (and Puhti) environment, see detailed information https://research.csc.fi/-/r.
 
 ### Dependencies
@@ -30,9 +30,9 @@ Desktop: RStudio download, see https://rstudio.com/products/rstudio/download/.
 CSC - Taito (and Puhti): see https://research.csc.fi/-/r; srun and sbatch
 
 CSC and Desktop: RStudio => Code => Run region => Run All 
-- Be sure to change the Laz files path (=LASPOLKU), it is recursive.
+- Be sure to change the Laz files path (=`LASPOLKU`), it is recursive.
 
-Example: Running the script in RStudio, where LASPOLKU = /proj/ogiir-csc/mml/laserkeilaus/2008_latest/2018/N544/, prints in Console:
+Example: Running the script in RStudio, where `LASPOLKU` = /proj/ogiir-csc/mml/laserkeilaus/2008_latest/2018/N544/, prints in Console:
 
     [1] "Tiedostojen maara yhteensa: 52 kpl"
     [1] "/homeappl/home/%username%/Downloads"
