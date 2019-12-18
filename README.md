@@ -15,9 +15,11 @@ Use RSrudio to run and test the script first time. RSrudio is already installed 
 ### Dependencies
 
 CSC rspatial-env environment in Taito (Puhti), see https://research.csc.fi/-/rspatial-env, use libraries:
-    - lidR - https://cran.r-project.org/web/packages/lidR/index.html
-    - rgdal - https://cran.r-project.org/web/packages/rgdal/index.html
+- lidR - https://cran.r-project.org/web/packages/lidR/index.html
+- rgdal - https://cran.r-project.org/web/packages/rgdal/index.html
+```
 (library("gdalUtils", lib.loc="/homeappl/appl_taito/stat/R/R-3.5.0/lib64/R/library"))
+```
 
 ### Installing
 
@@ -31,10 +33,9 @@ CSC and Desktop: RStudio => Code => Run region => Run All
 - Be sure to change the Laz files path (=LASPOLKU), it is recursive.
 
 Example: Running the script in RStudio, where LASPOLKU = /proj/ogiir-csc/mml/laserkeilaus/2008_latest/2018/N544/, prints in Console:
+
     [1] "Tiedostojen maara yhteensa: 52 kpl"
-
     [1] "/homeappl/home/%username%/Downloads"
-
     [1] "Tiedosto: /proj/ogiir-csc/mml/laserkeilaus/2008_latest/2018/N544//1/N5443A1.laz"
     [1] "Tiedosto - koko polku: /proj/ogiir-csc/mml/laserkeilaus/2008_latest/2018/N544//1/N5443A1.laz"
     [1] "Hakemisto: /wrk/%username%/N544/1/"
